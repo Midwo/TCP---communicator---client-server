@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomunikatorSerwer", "KomunikatorSerwer\KomunikatorSerwer.csproj", "{FC2003D5-38FE-430E-99E2-9CCDCDB0635F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomunikatorKlient", "..\..\projekt 53 komunikator klient\KomunikatorKlient\KomunikatorKlient\KomunikatorKlient.csproj", "{A307D4AD-012A-48BC-81F7-EEC1E4DA2E24}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{FC2003D5-38FE-430E-99E2-9CCDCDB0635F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC2003D5-38FE-430E-99E2-9CCDCDB0635F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC2003D5-38FE-430E-99E2-9CCDCDB0635F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A307D4AD-012A-48BC-81F7-EEC1E4DA2E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A307D4AD-012A-48BC-81F7-EEC1E4DA2E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A307D4AD-012A-48BC-81F7-EEC1E4DA2E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A307D4AD-012A-48BC-81F7-EEC1E4DA2E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
