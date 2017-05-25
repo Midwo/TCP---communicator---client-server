@@ -241,15 +241,22 @@ namespace KomunikatorSerwer
 
         private void button2_Click(object sender, EventArgs e)
         {
-            WpiszTekst("ja", textBox1.Text);
-            if (polaczenieAktywne)
+            try
             {
-                encryptDecrypt encrypt = new encryptDecrypt();
-                string encryptString = encrypt.encrypt(textBox1.Text);
-                pisanie.Write(encryptString);
+                WpiszTekst("ja", textBox1.Text);
+                if (polaczenieAktywne)
+                {
+                    encryptDecrypt encrypt = new encryptDecrypt();
+                    string encryptString = encrypt.encrypt(textBox1.Text);
+                    pisanie.Write(encryptString);
+                }
+
+                textBox1.Text = "";
             }
-              
-            textBox1.Text = "";
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error");
+            }
          
         }
 
