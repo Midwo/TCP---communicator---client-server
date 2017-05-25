@@ -19,7 +19,7 @@ namespace KomunikatorSerwer
         {
             InitializeComponent();
             webBrowser1.Navigate("about:blank");
-            webBrowser1.Document.Write("<html><head><style>body,table { font-size: 10pt; font - family: Verdana; margin: 3px 3px 3px 3px; font - color: black; }</style></head><body width =\"" + (webBrowser1.ClientSize.Width - 20).ToString() + "\">");
+            webBrowser1.Document.Write("<html><head><style>body,table { font-size: 12pt; font - family: Verdana; margin: 3px 3px 3px 3px; font - color: black; }</style></head><body width =\"" + (webBrowser1.ClientSize.Width - 20).ToString() + "\">");
             IPHostEntry adresyIP = Dns.GetHostEntry(Dns.GetHostName());
             foreach (IPAddress pozycja in adresyIP.AddressList)
                 comboBox1.Items.Add(pozycja.ToString());
